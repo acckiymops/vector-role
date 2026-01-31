@@ -2,7 +2,7 @@
 dependency:
   name: galaxy
 driver:
-  name: podman
+  name: docker
 lint: |
   ansible-lint .
   yamllint .
@@ -13,3 +13,9 @@ platforms:
   - name: ubuntu2204
     image: ubuntu:22.04
     pre_build_image: true
+scenario:
+  test_sequence:
+    - destroy
+    - create
+    - converge
+    - destroy

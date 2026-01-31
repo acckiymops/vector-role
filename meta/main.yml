@@ -1,9 +1,6 @@
 galaxy_info:
-<<<<<<< HEAD
   role_name: vector
   namespace: mvmeles1
-=======
->>>>>>> origin/main
   author: Maxim Meleshkin
   description: This role can install Vector agent
   company: Roga&Kopyta
