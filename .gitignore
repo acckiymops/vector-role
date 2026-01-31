@@ -1,0 +1,45 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+pip-log.txt
+
+# Ansible
+*.retry
+*.retry~
+.vagrant/
+
+# Molecule
+.molecule/
+.cache/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Temporary files
+tmp/
+*.tmp
+
+# Logs
+*.log
+
+# Sensitive data
+*.key
+*.pem
+vault.yml
+secrets.yml
+
+# System
+.DS_Store
